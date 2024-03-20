@@ -41,6 +41,7 @@ MODELS_URL = {
         "medium",
         "large-v1",
         "large",
+        "large-v3",
     )
 }
 
