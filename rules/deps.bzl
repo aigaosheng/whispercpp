@@ -13,7 +13,6 @@ def internal_deps():
         name = "com_github_bentoml_plugins",
         remote = "https://github.com/bentoml/plugins.git",
         commit = "9da166c0d5af5543f6084bf3ae5223ea19f0e7ea",
-        shallow_since = "1678069830 -0800",
     )
     # NOTE: uncomment the below line for debugging rules
     # change the path to absolute path
@@ -89,7 +88,6 @@ def internal_deps():
         name = "rules_foreign_cc",
         remote = "https://github.com/bazelbuild/rules_foreign_cc",
         commit = "d33d862abb4ce3ba178547ef58c9fcb24cec38ca",
-        shallow_since = "1677931962 +0000",
     )
 
     # Override python rules defined under @com_github_bentoml_plugins
