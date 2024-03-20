@@ -71,10 +71,11 @@ def internal_deps():
         new_git_repository,
         name = "com_github_ggerganov_whisper",
         build_file = Label("//extern:whispercpp.BUILD"),
-        init_submodules = False,
-        recursive_init_submodules = False,
+        init_submodules = True,
+        recursive_init_submodules = True,
         remote = "https://github.com/ggerganov/whisper.cpp.git",
-        commit = "e7794a868ffb53f5299125aaaf74fbcad93cd06c",
+        commit = "2f889132c66051b14c6f8770e9b3d4e3f159821d",
+        shallow_since = "1678217790 +0200",
     )
 
     http_archive(
